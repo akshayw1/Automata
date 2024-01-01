@@ -28,11 +28,11 @@ async function visitWebsiteAndClickButton() {
 
 await page.waitForSelector('input#luser');
 
-await page.type('input#luser', 'akshayw1');
+await page.type('input#luser', 'Username');
 
 await page.waitForSelector('input#password');
 
-await page.type('input#password', 'Aks123#123');
+await page.type('input#password', 'Password');
 
 await page.click('button.btn.btn-green.signin-button');
 
